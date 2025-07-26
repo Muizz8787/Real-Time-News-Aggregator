@@ -1,0 +1,95 @@
+     
+    body {
+        background: linear-gradient(to right, #f8cdda, #1d2b64);
+        font-family: 'Arial', sans-serif;
+        color: #333;
+      }
+      
+      #h2 {
+        font-size: 2.5rem;
+        color: #4A5568;
+        text-align: center;
+        margin-bottom: 1rem;
+        font-weight: 700;
+      }
+    
+      .container {
+        background: rgba(255, 255, 255, 0.671);
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+        margin-top: 2rem;
+        opacity: 0.85m;
+      }
+    
+      form {
+        margin-bottom: 2rem;
+      }
+    
+      input[type="date"] {
+        transition: border-color 0.3s;
+        margin-left: 10%;
+        background-color: rgba(253, 215, 166, 0.819);
+      }
+    
+      input[type="date"]:focus {
+        border-color: #4A5568;
+        box-shadow: 0 0 5px rgba(74, 85, 104, 0.5);
+        cursor: pointer;
+      }
+      input[type="date"]:hover {
+        cursor: pointer;
+      }
+      #specific-date {
+        cursor: pointer;
+      }
+    
+      button {
+        transition: background-color 0.3s, transform 0.3s;
+        color: #0858d2;
+      }
+    
+      button:hover {
+        background-color: #d2084f;
+        transform: translateY(-3px);
+      }
+    
+      .article {
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+    
+      .article:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+    
+      .article h2 {
+        color: #2d3748;
+      }
+    
+      .article p {
+        color: #4A5568;
+      }
+    
+      .article-date {
+        font-style: italic;
+        color: #718096;
+      }
+    
+      .text-blue-600 {
+        color: #3182ce;
+      }
+    
+      .text-blue-600:hover {
+        color: #2b6cb0;
+      }
+    
+      @media (max-width: 640px) {
+        #h2 {
+          font-size: 2rem;
+        }
+        button{
+          margin-left: 33%;
+          margin-top: 5%;
+        }
+      }
