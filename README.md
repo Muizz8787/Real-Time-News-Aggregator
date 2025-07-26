@@ -20,7 +20,7 @@ A web-based application that collects, processes, and displays real-time news fr
 | Frontend       | Backend        | Others          |
 |----------------|----------------|-----------------|
 | HTML, CSS, JS  | Node.js / Express (or Flask/Django) | News API (e.g., NewsAPI.org) |
-| React (optional) | RESTful API  | Git & GitHub     |
-| Bootstrap/Tailwind | MongoDB / Firebase (optional) | dotenv for environment variables |
+| Bootstrap      | RESTful API  | Git & GitHub     |
+|                | MongoDB / Firebase (optional) | dotenv for environment variables |
 
 ---
